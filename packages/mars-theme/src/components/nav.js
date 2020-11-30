@@ -21,6 +21,7 @@ const Nav = ({ state }) => (
         </NavItem>
       );
     })}
+    <Button>GET A DEMO</Button>
   </NavContainer>
 );
 
@@ -29,16 +30,31 @@ export default connect(Nav);
 const NavContainer = styled.nav`
   list-style: none;
   display: flex;
-  width: 848px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 1373.99px;
   box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
   padding: 0 24px;
   margin: 0;
+  margin-top: 22px;
   overflow-x: auto;
-
   @media screen and (max-width: 560px) {
     display: none;
   }
+`;
+
+const Button = styled.button`
+  background-color: #6d3bf4;
+  color: white;
+  font-weight: normal;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  outline: none;
+  border: none;
+  border-radius: 0;
 `;
 
 const NavItem = styled.div`
@@ -52,12 +68,7 @@ const NavItem = styled.div`
   & > a {
     display: inline-block;
     line-height: 2em;
-    border-bottom: 2px solid;
-    border-bottom-color: transparent;
     /* Use for semantic approach to style the current link */
-    &[aria-current="page"] {
-      border-bottom-color: #fff;
-    }
   }
 
   &:first-of-type {
