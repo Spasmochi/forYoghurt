@@ -1,0 +1,81 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.44.2",
+  "hash": "40475b83acf998a53bd6",
+  "publicPath": "/static/",
+  "outputPath": "/Users/sammcmurtrie/Repos/forYoghurt/build/static",
+  "assetsByChunkName": {
+    "foryoghurt": "foryoghurt.module.js",
+    "list": "list.module.js"
+  },
+  "assets": [
+    {
+      "name": "foryoghurt.module.js",
+      "size": 5252399,
+      "chunks": [
+        "foryoghurt"
+      ],
+      "chunkNames": [
+        "foryoghurt"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "list.module.js",
+      "size": 47777,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "foryoghurt": {
+      "chunks": [
+        "foryoghurt"
+      ],
+      "assets": [
+        "foryoghurt.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "foryoghurt": {
+      "chunks": [
+        "foryoghurt"
+      ],
+      "assets": [
+        "foryoghurt.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": []
+}
