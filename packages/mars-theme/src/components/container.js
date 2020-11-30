@@ -6,9 +6,9 @@ const Wrapper = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: auto;
 `;
 
-const Container = ({ children }) => <Wrapper>{children}</Wrapper>;
+const Container = (props) => <Wrapper>{props.children}</Wrapper>;
 
 export default Container;

@@ -31,7 +31,7 @@ const Theme = ({ state }) => {
       {/* Add some global styles for the whole site, like body or a's. 
       Not classes here because we use CSS-in-JS. Only global HTML tags. */}
       <Global styles={globalStyles} />
-      <Container>
+      <Front>
         <CanvasSpace />
         {/* Add the header of the site. */}
         <Container>
@@ -51,7 +51,7 @@ const Theme = ({ state }) => {
             </Switch>
           </Main>
         </Container>
-      </Container>
+      </Front>
     </>
   );
 };
@@ -69,6 +69,14 @@ const globalStyles = css`
     color: inherit;
     text-decoration: none;
   }
+`;
+
+const Front = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 `;
 
 const HeadContainer = styled.div`

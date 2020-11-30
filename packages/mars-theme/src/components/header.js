@@ -2,11 +2,13 @@ import React from "react";
 import { connect, styled } from "frontity";
 import Link from "./link";
 import Nav from "./nav";
+import MobileMenu from "./menu";
 
 const Header = ({ state }) => {
   return (
     <>
       <Nav />
+      <MobileMenu />
     </>
   );
 };

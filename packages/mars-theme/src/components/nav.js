@@ -39,7 +39,7 @@ const NavContainer = styled.nav`
   margin: 0;
   margin-top: 22px;
   overflow-x: auto;
-  @media screen and (max-width: 560px) {
+  @media screen and (max-width: 1024px) {
     display: none;
   }
 `;
@@ -55,6 +55,7 @@ const Button = styled.button`
   outline: none;
   border: none;
   border-radius: 0;
+  cursor: pointer;
 `;
 
 const NavItem = styled.div`
