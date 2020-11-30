@@ -1,0 +1,15 @@
+webpackHotUpdate("foryoghurt",{
+
+/***/ "./packages/mars-theme/src/components/home.js":
+/*!****************************************************!*\
+  !*** ./packages/mars-theme/src/components/home.js ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/core */ \"./node_modules/@emotion/core/dist/core.browser.esm.js\");\nvar Home=()=>{return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_1__[\"jsx\"])(\"div\",null,Object(_emotion_core__WEBPACK_IMPORTED_MODULE_1__[\"jsx\"])(\"h1\",null,\"Tap into your lost building and infrastructure data\"),Object(_emotion_core__WEBPACK_IMPORTED_MODULE_1__[\"jsx\"])(\"p\",null,\"Willow empowers owners and operators of buildings and infrastructure to make proactive, data-led decisions in real time through the power of WillowTwin.\"),Object(_emotion_core__WEBPACK_IMPORTED_MODULE_1__[\"jsx\"])(\"div\",null,Object(_emotion_core__WEBPACK_IMPORTED_MODULE_1__[\"jsx\"])(\"button\",null,\"REQUEST A DEMO\"),Object(_emotion_core__WEBPACK_IMPORTED_MODULE_1__[\"jsx\"])(\"button\",null,\"CONTACT US\")));};/* harmony default export */ __webpack_exports__[\"default\"] = (Home);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9wYWNrYWdlcy9tYXJzLXRoZW1lL3NyYy9jb21wb25lbnRzL2hvbWUuanM/ZWYwMyJdLCJuYW1lcyI6WyJIb21lIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUE7QUFBQTtBQUVBLEdBQU1BLEtBQUksQ0FBRyxJQUFNLENBQ2pCLE1BQ0Usc0VBQ0UsMEhBREYsQ0FFRSw4TkFGRixDQU9FLHFFQUNFLHlGQURGLENBRUUscUZBRkYsQ0FQRixDQURGLENBY0QsQ0FmRCxDQWlCZUEsbUVBQWYiLCJmaWxlIjoiLi9wYWNrYWdlcy9tYXJzLXRoZW1lL3NyYy9jb21wb25lbnRzL2hvbWUuanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXG5cbmNvbnN0IEhvbWUgPSAoKSA9PiB7XG4gIHJldHVybiAoXG4gICAgPGRpdj5cbiAgICAgIDxoMT5UYXAgaW50byB5b3VyIGxvc3QgYnVpbGRpbmcgYW5kIGluZnJhc3RydWN0dXJlIGRhdGE8L2gxPlxuICAgICAgPHA+XG4gICAgICAgIFdpbGxvdyBlbXBvd2VycyBvd25lcnMgYW5kIG9wZXJhdG9ycyBvZiBidWlsZGluZ3MgYW5kIGluZnJhc3RydWN0dXJlIHRvXG4gICAgICAgIG1ha2UgcHJvYWN0aXZlLCBkYXRhLWxlZCBkZWNpc2lvbnMgaW4gcmVhbCB0aW1lIHRocm91Z2ggdGhlIHBvd2VyIG9mXG4gICAgICAgIFdpbGxvd1R3aW4uXG4gICAgICA8L3A+XG4gICAgICA8ZGl2PlxuICAgICAgICA8YnV0dG9uPlJFUVVFU1QgQSBERU1PPC9idXR0b24+XG4gICAgICAgIDxidXR0b24+Q09OVEFDVCBVUzwvYnV0dG9uPlxuICAgICAgPC9kaXY+XG4gICAgPC9kaXY+XG4gIClcbn1cblxuZXhwb3J0IGRlZmF1bHQgSG9tZVxuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./packages/mars-theme/src/components/home.js\n");
+
+/***/ })
+
+})
