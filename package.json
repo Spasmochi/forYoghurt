@@ -15,7 +15,6 @@
     "build": "frontity build",
     "serve": "frontity serve"
   },
-  "prettier": {},
   "dependencies": {
     "@frontity/core": "^1.9.1",
     "@frontity/html2react": "^1.5.0",

@@ -2,11 +2,17 @@ import React from "react";
 import { styled, connect, Global } from "frontity";
 import { CloseIcon, HamburgerIcon } from "./menu-icon";
 import MenuModal from "./menu-modal";
+import Logo from "./logo";
 
 function MobileMenu({ state, actions }) {
   const { isMobileMenuOpen } = state.theme;
   return (
     <>
+      {isMobileMenuOpen ? (
+        <LogoWrapper>
+          <Logo />
+        </LogoWrapper>
+      ) : null}
       <MenuToggle onClick={actions.theme.toggleMobileMenu}>
         {isMobileMenuOpen ? (
           <>
@@ -24,6 +30,12 @@ function MobileMenu({ state, actions }) {
     </>
   );
 }
+
+const LogoWrapper = styled.div`
+  position: absolute;
+  top: 24px;
+  left: 24px;
+`;
 
 const MenuToggle = styled.button`
   position: absolute;

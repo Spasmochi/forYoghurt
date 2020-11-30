@@ -1,6 +1,7 @@
 import React from "react";
 import { connect, styled } from "frontity";
 import Link from "./link";
+import Logo from "./logo";
 
 /**
  * Navigation Component
@@ -9,6 +10,7 @@ import Link from "./link";
  */
 const Nav = ({ state }) => (
   <NavContainer>
+    <Logo />
     {state.theme.menu.map(([name, link]) => {
       // Check if the link matched the current page url
       const isCurrentPage = state.router.link === link;
