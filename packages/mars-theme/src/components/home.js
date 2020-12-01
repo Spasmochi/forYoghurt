@@ -56,18 +56,22 @@ const Wrapper = styled.div`
   @media (min-width: 768px) {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    margin-top: 13rem;
   }
   @media (min-width: 1280px) {
     padding-left: 2rem;
     padding-right: 2rem;
   }
   max-width: 80rem;
-  margin-top: 13rem;
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   h1 {
-    font-size: 64px;
+    @media (min-width: 768px) {
+      font-size: 64px;
+    }
+    font-size: 32px;
     color: white;
     text-align: center;
     max-width: 750px;
@@ -75,6 +79,10 @@ const Wrapper = styled.div`
     margin-bottom: 36px;
   }
   p {
+    @media (max-width: 768px) {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
     color: #918c94;
     line-height: 28px;
     max-width: 636px;

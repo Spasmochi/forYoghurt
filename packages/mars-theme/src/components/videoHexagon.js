@@ -5,7 +5,7 @@ const VideoHexagon = ({ visible }) => {
   return (
     <Wrapper visible={visible}>
       <Section>
-        <video id='video-file' autoplay='true' loop=''>
+        <video id='video-file' autoPlay={true} loop=''>
           <source
             src='http://hellosusan.io/assets/video.mp4'
             type='video/mp4'
@@ -29,8 +29,8 @@ const VideoHexagon = ({ visible }) => {
             transform='translate(0.5 0.577)'
             fill='none'
             stroke='#f4f4f4'
-            stroke-miterlimit='10'
-            stroke-width='1'
+            strokeMiterlimit='10'
+            strokeWidth='1'
           />
         </svg>
       </WhiteHexagon>
