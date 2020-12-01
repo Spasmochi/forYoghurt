@@ -5,7 +5,7 @@ const VideoHexagon = ({ visible }) => {
   return (
     <Wrapper visible={visible}>
       <Section>
-        <video id='video-file' autoPlay={true} loop=''>
+        <video id='video-file' autoPlay={true} loop={true}>
           <source
             src='http://hellosusan.io/assets/video.mp4'
             type='video/mp4'
