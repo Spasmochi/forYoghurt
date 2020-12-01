@@ -2,19 +2,19 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "b2ced051619321e59a1e",
+  "hash": "897179d446eb3f63791f",
   "publicPath": "/static/",
   "outputPath": "/Users/sammcmurtrie/Repos/forYoghurt/build/static",
   "assetsByChunkName": {
     "foryoghurt": [
       "foryoghurt.module.js",
-      "foryoghurt.0def81d16bd8a081b5a3.hot-update.js"
+      "foryoghurt.ac257ee6710a327f85b3.hot-update.js"
     ],
     "list": "list.module.js"
   },
   "assets": [
     {
-      "name": "0def81d16bd8a081b5a3.hot-update.json",
+      "name": "ac257ee6710a327f85b3.hot-update.json",
       "size": 52,
       "chunks": [],
       "chunkNames": [],
@@ -25,8 +25,8 @@
       "emitted": false
     },
     {
-      "name": "foryoghurt.0def81d16bd8a081b5a3.hot-update.js",
-      "size": 20019,
+      "name": "foryoghurt.ac257ee6710a327f85b3.hot-update.js",
+      "size": 8177,
       "chunks": [
         "foryoghurt"
       ],
@@ -41,7 +41,7 @@
     },
     {
       "name": "foryoghurt.module.js",
-      "size": 7226867,
+      "size": 7252040,
       "chunks": [
         "foryoghurt"
       ],
@@ -72,7 +72,7 @@
       ],
       "assets": [
         "foryoghurt.module.js",
-        "foryoghurt.0def81d16bd8a081b5a3.hot-update.js"
+        "foryoghurt.ac257ee6710a327f85b3.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -85,7 +85,7 @@
       ],
       "assets": [
         "foryoghurt.module.js",
-        "foryoghurt.0def81d16bd8a081b5a3.hot-update.js"
+        "foryoghurt.ac257ee6710a327f85b3.hot-update.js"
       ],
       "children": {},
       "childAssets": {}

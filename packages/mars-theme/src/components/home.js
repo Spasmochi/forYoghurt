@@ -1,34 +1,58 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { styled } from 'frontity'
+import VideoHexagon from './videoHexagon'
 
 const Home = () => {
+  const [hasHover, setHasHover] = useState(false)
   return (
-    <Wrapper>
-      <h1>Tap into your lost building and infrastructure data</h1>
-      <p>
-        Willow empowers owners and operators of buildings and infrastructure to
-        make proactive, data-led decisions in real time through the power of
-        WillowTwin.
-      </p>
-      <div>
-        <Button>REQUEST A DEMO</Button>
-        <Outlined>CONTACT US</Outlined>
-      </div>
-      <Play>
-        <img
-          src='https://testingeverything752826403.files.wordpress.com/2020/11/play.png'
-          width='40'
-          height='40'
-        />
-        Watch Video
-      </Play>
-    </Wrapper>
+    <>
+      <VideoHexagon visible={hasHover} />
+
+      <Wrapper>
+        <h1>
+          Tap into your lost{' '}
+          <Span
+            onMouseEnter={() => setHasHover(true)}
+            onMouseLeave={() => setHasHover(false)}
+          >
+            {' '}
+            building
+          </Span>{' '}
+          and{' '}
+          <Span
+            onMouseEnter={() => setHasHover(true)}
+            onMouseLeave={() => setHasHover(false)}
+          >
+            infrastructure
+          </Span>{' '}
+          data
+        </h1>
+        <p>
+          Willow empowers owners and operators of buildings and infrastructure
+          to make proactive, data-led decisions in real time through the power
+          of WillowTwin.
+        </p>
+        <div>
+          <Button>REQUEST A DEMO</Button>
+          <Outlined>CONTACT US</Outlined>
+        </div>
+        <Play>
+          <img
+            src='https://testingeverything752826403.files.wordpress.com/2020/11/play.png'
+            width='40'
+            height='40'
+          />
+          Watch Video
+        </Play>
+      </Wrapper>
+    </>
   )
 }
 
 export default Home
 
 const Wrapper = styled.div`
+  z-index: 1;
   @media (min-width: 768px) {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -38,7 +62,7 @@ const Wrapper = styled.div`
     padding-right: 2rem;
   }
   max-width: 80rem;
-  margin-top: 5rem;
+  margin-top: 13rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,7 +70,7 @@ const Wrapper = styled.div`
     font-size: 64px;
     color: white;
     text-align: center;
-    max-width: 726px;
+    max-width: 750px;
     margin-top: 0;
     margin-bottom: 36px;
   }
@@ -87,5 +111,13 @@ const Play = styled.div`
   color: white;
   img {
     margin-right: 17px;
+  }
+`
+const Span = styled.span`
+  border-bottom: 2px solid white;
+  cursor: pointer;
+  &:hover {
+    color: #ed4263;
+    border-bottom: 2px solid #ed4263;
   }
 `

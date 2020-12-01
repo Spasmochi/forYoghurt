@@ -34,11 +34,10 @@ const Theme = ({ state }) => {
       <Front>
         <CanvasSpace />
         {/* Add the header of the site. */}
+        <HeadContainer>
+          <Header />
+        </HeadContainer>
         <Container>
-          <HeadContainer>
-            <Header />
-          </HeadContainer>
-
           {/* Add the main section. It renders a different component depending
       on the type of URL we are in. */}
           <Main>
@@ -72,14 +71,22 @@ const globalStyles = css`
 `
 
 const Front = styled.div`
+  overflow: hidden;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `
 
 const HeadContainer = styled.div`
+  z-index: 2;
+  width: 100%;
+  max-width: 1400px;
+  position: fixed;
   display: flex;
   align-items: center;
   flex-direction: column;

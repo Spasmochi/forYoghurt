@@ -1,7 +1,7 @@
-import React from "react";
-import { connect, styled } from "frontity";
-import Link from "./link";
-import Logo from "./logo";
+import React from 'react'
+import { connect, styled } from 'frontity'
+import Link from './link'
+import Logo from './logo'
 
 /**
  * Navigation Component
@@ -13,21 +13,22 @@ const Nav = ({ state }) => (
     <Logo />
     {state.theme.menu.map(([name, link]) => {
       // Check if the link matched the current page url
-      const isCurrentPage = state.router.link === link;
+      const isCurrentPage = state.router.link === link
       return (
         <NavItem key={name}>
           {/* If link url is the current page, add `aria-current` for a11y */}
-          <Link link={link} aria-current={isCurrentPage ? "page" : undefined}>
+          <Link link={link} aria-current={isCurrentPage ? 'page' : undefined}>
             {name}
           </Link>
         </NavItem>
-      );
+      )
     })}
     <Button>GET A DEMO</Button>
+    <img src='https://testingeverything752826403.files.wordpress.com/2020/12/search.png' />
   </NavContainer>
-);
+)
 
-export default connect(Nav);
+export default connect(Nav)
 
 const NavContainer = styled.nav`
   list-style: none;
@@ -44,7 +45,7 @@ const NavContainer = styled.nav`
   @media screen and (max-width: 1024px) {
     display: none;
   }
-`;
+`
 
 const Button = styled.button`
   background-color: #6d3bf4;
@@ -58,7 +59,7 @@ const Button = styled.button`
   border: none;
   border-radius: 0;
   cursor: pointer;
-`;
+`
 
 const NavItem = styled.div`
   padding: 0;
@@ -82,9 +83,9 @@ const NavItem = styled.div`
     margin-right: 0;
 
     &:after {
-      content: "";
+      content: '';
       display: inline-block;
       width: 24px;
     }
   }
-`;
+`

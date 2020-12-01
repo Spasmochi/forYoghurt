@@ -1,0 +1,14 @@
+webpackHotUpdate("foryoghurt",{
+
+/***/ "./packages/mars-theme/src/components/home.js":
+/*!****************************************************!*\
+  !*** ./packages/mars-theme/src/components/home.js ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nSyntaxError: /Users/sammcmurtrie/Repos/forYoghurt/packages/mars-theme/src/components/home.js: Unexpected token, expected \\\"}\\\" (40:16)\\n\\n\\u001b[0m \\u001b[90m 38 | \\u001b[39m\\u001b[32m  z-index: 1;\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 39 | \\u001b[39m\\u001b[32m  @media (min-width: 768px) {\\u001b[39m\\u001b[0m\\n\\u001b[0m\\u001b[31m\\u001b[1m>\\u001b[22m\\u001b[39m\\u001b[90m 40 | \\u001b[39m\\u001b[32m    padding-left: 1.5rem;\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m    | \\u001b[39m                \\u001b[31m\\u001b[1m^\\u001b[22m\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 41 | \\u001b[39m\\u001b[32m    padding-right: 1.5rem;\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 42 | \\u001b[39m\\u001b[32m  }\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 43 | \\u001b[39m\\u001b[32m  @media (min-width: 1280px) {\\u001b[39m\\u001b[0m\\n    at Object._raise (/Users/sammcmurtrie/Repos/forYoghurt/node_modules/@babel/parser/src/parser/error.js:60:45)\\n    at Object.raiseWithData (/Users/sammcmurtrie/Repos/forYoghurt/node_modules/@babel/parser/src/parser/error.js:55:17)\\n    at Object.raise (/Users/sammcmurtrie/Repos/forYoghurt/node_modules/@babel/parser/src/parser/error.js:39:17)\\n    at Object.unexpected (/Users/sammcmurtrie/Repos/forYoghurt/node_modules/@babel/parser/src/parser/util.js:139:16)\\n    at Object.expect (/Users/sammcmurtrie/Repos/forYoghurt/node_modules/@babel/parser/src/parser/util.js:116:28)\\n    at Object.jsxParseExpressionContainer (/Users/sammcmurtrie/Repos/forYoghurt/node_modules/@babel/parser/src/plugins/jsx/index.js:349:12)\\n    at Object.jsxParseElementAt (/Users/sammcmurtrie/Repos/forYoghurt/node_modules/@babel/parser/src/plugins/jsx/index.js:448:36)\\n    at Object.jsxParseElement (/Users/sammcmurtrie/Repos/forYoghurt/node_modules/@babel/parser/src/plugins/jsx/index.js:514:19)\\n    at Object.parseExprAtom (/Users/sammcmurtrie/Repos/forYoghurt/node_modules/@babel/parser/src/plugins/jsx/index.js:525:21)\\n    at Object.parseExprSubscripts (/Users/sammcmurtrie/Repos/forYoghurt/node_modules/@babel/parser/src/parser/expression.js:568:23)\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL3BhY2thZ2VzL21hcnMtdGhlbWUvc3JjL2NvbXBvbmVudHMvaG9tZS5qcy5qcyIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./packages/mars-theme/src/components/home.js\n");
+
+/***/ })
+
+})
