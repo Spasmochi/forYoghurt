@@ -24,7 +24,10 @@ const Nav = ({ state }) => (
       )
     })}
     <Button>GET A DEMO</Button>
-    <img src='https://testingeverything752826403.files.wordpress.com/2020/12/search.png' />
+    <img
+      src='https://assets.codepen.io/521481/search.png'
+      style={{ cursor: 'pointer' }}
+    />
   </NavContainer>
 )
 
